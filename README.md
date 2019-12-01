@@ -12,3 +12,7 @@ now the owoifier is in `/usr/bin` and can be executed from anywhere!
 
 ## usage
 at the end of any command, typing `| owoifier` to owoify the output!
+
+## uninstallation
+idk why you'd EVER want to uninstall this, but you can if you want to :c
+```sudo rm /usr/bin/owoifier```
