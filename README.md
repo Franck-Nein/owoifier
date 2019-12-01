@@ -1,5 +1,5 @@
 # owoifier
-a simple shell owoifier
+a simple shell owoifier for unix-like operating systems
 
 ## installation
 ```git clone https://github.com/sckwib/owoifier && cd owoifier && chmod +x install.sh && chmod +x owoifier && sudo ./install.sh```
