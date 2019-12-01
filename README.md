@@ -7,7 +7,7 @@ a simple shell owoifier for unix-like operating systems
 now the owoifier is in `/usr/bin` and can be executed from anywhere!
 
 ## usage
-at the end of any command, typing `| owoifier` to owoify the output!
+at the end of any command, type `| owoifier` to owoify the output!
 
 ## uninstallation
 idk why you'd EVER want to uninstall this, but you can if you want to :c
