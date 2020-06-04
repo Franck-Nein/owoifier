@@ -2,7 +2,7 @@
 a simple shell owoifier for unix-like operating systems
 
 ## installation
-```git clone https://github.com/re-tard/owoifier && cd owoifier && chmod +x install.sh && chmod +x owoifier && sudo ./install.sh```
+```git clone https://github.com/rikupone/owoifier && cd owoifier && chmod +x install.sh && chmod +x owoifier && sudo ./install.sh```
 
 now the owoifier is in `/usr/bin` and can be executed from anywhere!
 
