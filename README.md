@@ -1,5 +1,5 @@
 # owoifier
-a simple shell owoifier for unix-like operating systems
+a simple shell owoifier for unix-like operating systems!
 
 ## installation
 ```git clone https://github.com/rikupone/owoifier && cd owoifier && chmod +x install.sh && chmod +x owoifier && sudo ./install.sh```
@@ -7,9 +7,9 @@ a simple shell owoifier for unix-like operating systems
 now the owoifier is in `/usr/bin` and can be executed from anywhere!
 
 ## mac users
-you must disable system integrity protection for this to work on macos/os x
+if you get the error `cp: /usr/bin/owoifier: Read-only file system`, you must disable system integrity protection for this to work on macos/os x.
 
-you can do this by booting into recovery mode by holding ⌘+r after chime, opening a terminal and typing ```csrutil disable```.
+you can do this by booting into recovery mode by holding ⌘+r after chime, opening a terminal and typing `csrutil disable`, then rebooting.
 
 ## usage
 at the end of any command, type `| owoifier` to owoify the output!
