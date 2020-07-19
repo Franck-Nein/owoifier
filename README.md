@@ -6,6 +6,10 @@ a simple shell owoifier for unix-like operating systems
 
 now the owoifier is in `/usr/bin` and can be executed from anywhere!
 
+## mac users
+you must disable system integrity protection for this to work on macos/os x
+you can do this by booting into recovery mode by holding ⌘+r after chime, opening a terminal and typing ```csrutil disable```.
+
 ## usage
 at the end of any command, type `| owoifier` to owoify the output!
 
