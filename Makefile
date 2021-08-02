@@ -1,7 +1,7 @@
 PREFIX ?= /usr
 
 all:
-	@echo You need to wun \'make install\' to install me! ~nyan
+	@echo You nyeed to wun \'make install'\ to instaww me! ~nya
 
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
