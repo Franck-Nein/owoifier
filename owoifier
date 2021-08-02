@@ -1,2 +1,2 @@
 #!/bin/sh
-sed 's/r/w/g' | sed 's/l/w/g' | sed 's/na/nya/g' | sed 's/ne/nye/g' | sed 's/ni/nyi/g' | sed 's/no/nyo/g' | sed 's/nu/nyu/g' | sed 's/he/hye/g'
+sed 's/r/w/g;s/l/w/g;s/na/nya/g;s/ne/nye/g;s/ni/nyi/g;s/no/nyo/g;s/nu/nyu/g;s/he/hye/g'
