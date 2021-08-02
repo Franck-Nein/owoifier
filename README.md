@@ -16,4 +16,4 @@ at the end of any command, type `| owoifier` to owoify the output!
 
 ## uninstallation
 idk why you'd EVER want to uninstall this, but you can if you want to.
-```make uninstall```
+```sudo make uninstall```
