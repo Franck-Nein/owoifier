@@ -1,7 +1,7 @@
 PREFIX ?= /usr
 
 all:
-	@echo You nweed to wun \'Make install\' to install mwe! ~nyan
+	@echo You need to wun \'make install\' to install me! ~nyan
 
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
