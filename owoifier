@@ -1,2 +1,26 @@
 #!/bin/sh
-sed 's/r/w/g;s/l/w/g;s/na/nya/g;s/ne/nye/g;s/ni/nyi/g;s/no/nyo/g;s/nu/nyu/g;s/he/hye/g'
+if [ $# -eq 0 ] || [ $1 = "--owo" ] || [ $1 = "-o" ]; then
+  sed 's/r/w/g;s/l/w/g;s/na/nya/g;s/ne/nye/g;s/ni/nyi/g;s/no/nyo/g;s/nu/nyu/g;s/he/hye/g;s/R/W/g;s/L/W/g;s/ow/OwO/g;s/has/haz/g;s/have/haz/g;s/you/uu/g;s/the/da/g;'
+elif [ $1 = "--leet" ] || [ $1 = "-l" ]; then
+  sed 's/cks/x/g;s/ck/x/g;s/er/or/g;s/and/&/g;s/anned/&/g;s/porn/pr0n/g;s/lol/lulz/g;s/the/teh/g;s/a/4/g;s/o/0/g;s/e/3/g;s/b/8/g;s/s/5/g;s/z/2/g;s/l/1/g;s/t/7/g'
+elif [ $1 = "-pir" ] || [ $1 = "-p" ] || [ $1 = "--pirate" ]; then
+  sed 's/this/tis/g;s/g//g;s/you/ye/g;s/You/Ye/g;s/Hello/Ahoy!/g;s/Hey/Ahoy!/g;s/There/Thar/g;s/Is/Be/g;s/hello/ahoy!/g;s/there/thar/g;s/is/be/g;s/is./be./g;s/is?/is?/g;s/is/is!/g;s/What/Wha/g;s/what/wha/g'
+elif [ $1 = "--install" ]; then
+  cp "$0" /usr/bin/
+elif [ $1 = "--uninstall" ]; then
+  rm "$0"
+elif [ $1 = "-h" ] || [ $1 = "--help" ]; then
+  echo "Usage: [Your command] | owoifier [OPTION]"
+  echo ""
+  echo "  -h, --help       Shows this output"
+  echo "  -o, --owo        Default OwOifier behaviour"
+  echo "  -l, --leet       L33T Speach"
+  echo "  -p, --pirate     Pirate Speach"
+  echo ""
+  echo "(Only tested on Ubuntu, but probably works for most people.)"
+  echo "      --install    Copy executable to /usr/bin/"
+  echo "      --uninstall  removes executable"
+  echo ""
+  echo "Leet, Pirate and part of OwO taken from Nepeta's 'OwO' iOS tweak"
+fi
+
