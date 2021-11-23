@@ -2,8 +2,8 @@
 Simple shell owoifier for unix-like operating systems!
 
 ## Installation
-```git clone https://github.com/Franck-Nein/owoifier && cd owoifier && sudo ./owoifier --install```
-Alternative(Install Gento)
+```git clone https://github.com/Franck-Nein/owoifier && cd owoifier && sudo ./owoifier --install```<br>
+Alternative(Install Gento)<br>
 ```git clone https://github.com/Franck-Nein/owoifier && cd owoifier && sudo make install```
 
 now the owoifier is in `/usr/bin` and can be executed from anywhere!
