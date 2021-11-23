@@ -1,8 +1,10 @@
 # owoifier
-a simple shell owoifier for unix-like operating systems!
+Simple shell owoifier for unix-like operating systems!
 
 ## Installation
 ```git clone https://github.com/Franck-Nein/owoifier && cd owoifier && sudo ./owoifier --install```
+Alternative(Install Gento)
+```git clone https://github.com/Franck-Nein/owoifier && cd owoifier && sudo make install```
 
 now the owoifier is in `/usr/bin` and can be executed from anywhere!
 
@@ -14,15 +16,18 @@ you can do this by booting into recovery mode by holding ⌘+r after chime, open
 ## Usage
 Type `[Your command] | owoifier [OPTION]` to owoify the output!
 Options:
-
-`-h, --help       Shows this output`<br>
-`-o, --owo        Default OwOifier behaviour`<br>
-`-l, --leet       L33T Speach`<br>
-`-p, --pirate     Pirate Speach`<br>
-`(Only tested on Ubuntu, but probably works for most people.)`<br>
-`--install        Copy executable to /usr/bin/"`<br>
-`--uninstall      removes executable"`<br>
-
+ ```bash
+-h, --help       Shows this output
+-o, --owo        Default OwOifier behaviour
+-l, --leet       L33T Speach
+-p, --pirate     Pirate Speach
+(Only tested on Ubuntu, but probably works for most people.)
+--install        Copy executable to /usr/bin/
+--uninstall      removes executable
+```
 ## Uninstallation
 idk why you'd EVER want to uninstall this, but you can if you want to.<br>
-```sudo owoify --uninstall```
+```sudo owoify --uninstall```<br>
+If installed using alternative method<br>
+```sudo make uninstall```
+
